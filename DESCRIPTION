@@ -1,0 +1,16 @@
+Package: siteConvertR
+Type: Package
+Title: Convert VCF Sites Between Old and New Genome Coordinates
+Version: 0.1.0
+Authors@R: 
+    person("Li", "Y", email = "liyin59375@email.com", role = c("aut", "cre"))
+Description: Convert VCF marker IDs, chromosomes, positions, and contig headers between old and new genome coordinate systems.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    vcfR
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
